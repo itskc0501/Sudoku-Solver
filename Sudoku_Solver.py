@@ -115,7 +115,8 @@ class SudokuGUI:
                 self.filledBoard[row][col].delete(0, tk.END)
                 self.filledBoard[row][col].insert(0, puzzle[row][col])
 
-#The Main Implementation of the program is given below. Fill the boxes with some input (correct input) and click 'Solve' to get the final output.
+#The Main Implementation of the program is given below. 
+#Fill the boxes with some input (correct input) and click 'Solve' to get the final output.
 
 if __name__ == '__main__':
     root = tk.Tk()
